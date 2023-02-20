@@ -7,5 +7,6 @@ public class Main {
 
         WordsChecker wordsChecker = new WordsChecker(txt);
         System.out.println(wordsChecker.hasWord("Салават Юлаев чемпион!"));
+        System.out.println(wordsChecker.hasWord("Salavat Yulaev is the champion!"));
     }
 }
